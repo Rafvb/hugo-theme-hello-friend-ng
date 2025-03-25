@@ -1,3 +1,7 @@
 {{- with .Site.Params.homeSubtitle }}
-    <p>{{.}}</p>
+    <p><i>{{.}}</i></p>
+{{- end }}
+
+{{- with .Site.Params.homeSlogan }}
+    <p class="slogan">{{.}}</p>
 {{- end }}
